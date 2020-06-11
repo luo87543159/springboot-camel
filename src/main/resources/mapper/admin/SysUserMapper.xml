@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.luojun.camel.admin.mapper.SysUserMapper">
+  <resultMap id="BaseResultMap" type="com.luojun.camel.admin.domain.SysUser">
+    <!--@mbg.generated generated on Sun Jun 07 17:49:50 CST 2020.-->
+    <!--@Table sys_user-->
+    <id column="ID" jdbcType="VARCHAR" property="id" />
+    <result column="ACCOUNT" jdbcType="VARCHAR" property="account" />
+    <result column="PASSWORD" jdbcType="VARCHAR" property="password" />
+    <result column="AVATAR_ADDRESS" jdbcType="VARCHAR" property="avatarAddress" />
+    <result column="ONLY" jdbcType="VARCHAR" property="only" />
+    <result column="USERNAME" jdbcType="VARCHAR" property="username" />
+    <result column="LASTLOGIN_TIME" jdbcType="TIMESTAMP" property="lastloginTime" />
+    <result column="ACCOUNT_STATUS" jdbcType="VARCHAR" property="accountStatus" />
+    <result column="CREATED_BY" jdbcType="VARCHAR" property="createdBy" />
+    <result column="CREATED_TIME" jdbcType="TIMESTAMP" property="createdTime" />
+    <result column="UPDATED_BY" jdbcType="VARCHAR" property="updatedBy" />
+    <result column="UPDATED_TIME" jdbcType="TIMESTAMP" property="updatedTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated generated on Sun Jun 07 17:49:50 CST 2020.-->
+    ID, ACCOUNT, `PASSWORD`, AVATAR_ADDRESS, `ONLY`, USERNAME, LASTLOGIN_TIME, ACCOUNT_STATUS, 
+    CREATED_BY, CREATED_TIME, UPDATED_BY, UPDATED_TIME
+  </sql>
+</mapper>

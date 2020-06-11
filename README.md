@@ -1,6 +1,4 @@
 # 单体应用前后端分离
+springboot 2.3 + security + outh2.0 + Activiti7
 
-#使用的安全框架  security
-# 使用outsh2  协议
-# 使用数据库 mysql
 
